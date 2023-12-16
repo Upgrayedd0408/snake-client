@@ -21,23 +21,23 @@ const handleUserInput = function (data) {
 
   if (data === "a") {
     connection.write("Move: left");
-  }
+  };
 
   if (data === "s") {
     connection.write("Move: down");
-  }
+  };
 
   if (data === "d") {
     connection.write("Move: right");
-  }
+  };
 
   if (data === "o") {
     connection.write("Say: Om Nom Nom");
-  }
+  };
 
   if (data === "l") {
     connection.write("Say: Let's GOOOO!");
-  }
+  };
 };
 
 
